@@ -1,4 +1,5 @@
 Brief Introduction:
+
 (1) This script is designed to filter indel variants from a VCF file, specifically targeting those variants 
 (2) that are exclusively present in male samples and meet certain length criteria (insertions > 10bp, deletions > 20bp),
 (3) making them potential markers for male specificity. This script is intended for use in genomic studies 
