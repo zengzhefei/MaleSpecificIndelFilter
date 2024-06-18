@@ -31,7 +31,7 @@ for variant in vcf_reader:
     insert_size = abs(alt_len - ref_len)
 
     # Skip the variant if it does not meet the length criteria for insertions or deletions
-    if not ((alt_len > ref_len and insert_size > 10) or (alt_len < ref_len and insert_size > 20)):
+    if not ((alt_len > ref_len and insert_size > 20) or (alt_len < ref_len and insert_size > 20)):
         continue
 
     # Check male samples
